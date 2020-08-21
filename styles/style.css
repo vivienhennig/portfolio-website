@@ -85,7 +85,33 @@ span {
     margin: 2rem;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
+    .social {
+        display: block;
+        margin: 4rem auto auto auto;
+    }
+
+
+    .tools {
+        margin: 4rem auto;
+    }
+
+    .content {
+        width: 80vw;
+        margin: 5rem auto;
+    }
+
+    .icon {
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+        margin: 2rem 2.5rem auto auto;
+    }
+} 
+
+
+
+@media only screen and (min-width: 1025px) {
     .social {
         display: block;
         margin: 4rem auto auto auto;
